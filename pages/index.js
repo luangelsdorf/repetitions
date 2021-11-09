@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useEffect } from 'react';
 import { getObjStyle, getRandomPercent, main, randomColor } from '../public/js/main';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -48,7 +49,7 @@ export default function Home() {
           </svg>
         </div>
 
-        <span>Quer saber o que é isso? <a href="/sobre">clique aqui</a></span>
+        <span>Quer saber o que é isso? <Link href="/sobre"><a>clique aqui</a></Link></span>
 
         <div id="patterns">
 
