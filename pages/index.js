@@ -24,6 +24,7 @@ export default function Home() {
       </Head>
 
       <main className="main">
+        <input type="hidden" value="u+VFLQ*j2HTC^cVg" />
 
         <h2>A cada dia, cerca de 26301 pessoas morrem de câncer no mundo. (<a href="https://ourworldindata.org/cancer" target="_blank" rel="noopener noreferrer">fonte</a>)</h2>
 
